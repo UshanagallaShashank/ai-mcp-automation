@@ -1,5 +1,5 @@
 {
-  "name": "amazon-scraper",
-  "goal": "i need sony headphones to be added to my cart on amazon with a white color with anc and a price under 15000 and return me the name of it and its price",
-  "startUrl": "https://www.amazon.com"
+  "name": "dazn-scraper",
+  "goal": "click on explore button and go to live tv section and then go to cycling section and get the list of live events and their details",
+  "startUrl": "https://www.dazn.com"
 }

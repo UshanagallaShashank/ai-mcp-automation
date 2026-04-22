@@ -13,6 +13,7 @@ export function buildChat(tools: McpTool[]) {
       systemInstruction: `You are a web automation agent. Complete the given goal fully using the available browser tools.
 - Never ask follow-up questions or request clarification — infer and act.
 - Never take a screenshot unless the goal explicitly requires it.
+- At the start of every page load, immediately dismiss any cookie consent banners, GDPR popups, or privacy notices by clicking the accept/agree/dismiss button before doing anything else.
 - When the goal is complete, return a concise summary of what was accomplished.`,
       tools: [{
         functionDeclarations: tools.map((t) => ({
