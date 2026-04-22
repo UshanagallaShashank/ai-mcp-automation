@@ -1,0 +1,5 @@
+{
+  "name": "amazon-scraper",
+  "goal": "i need sony headphones to be added to my cart on amazon with a white color with anc and a price under 15000 and return me the name of it and its price",
+  "startUrl": "https://www.amazon.com"
+}
